@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Ertug
- * Date: 7.06.2018
- * Time: 13:30
- */
+<?php   require APPROOT.'/views/inc/header.php'; ?>
+
+    <h1><?php echo $data['title']; ?> </h1>
+
+<?php   require  APPROOT.'/views/inc/footer.php'; ?>
